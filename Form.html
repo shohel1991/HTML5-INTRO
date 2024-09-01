@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>User Information</h1>
+    <form>
+        <label for="name">Your Name
+            <input id="name" type="text" placeholder="Your Name">
+        </label>
+        <label for="Email">Your Email
+            <input id="Email" type="text" placeholder="Your Email">
+        </label>
+        <label for="Phone">Your Phone Number
+            <input id="Phone" type="text" placeholder="Your Phone Number">
+        </label>
+        <fieldset>
+            <legend>Pick One Shift</legend>
+            <label for="Shift">
+                <input type="radio" name="Shift" id="First Shift">
+                First Shift
+            </label>
+            <label for="Shift">
+                <input type="radio" name="Shift" id="Second Shift">
+                Second Shift
+            </label>
+            <label for="Shift">
+                <input type="radio" name="Shift" id="Third Shift">
+                Third Shift
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Chose one or more subject</legend>
+            <label for="Arobi">
+                <input type="checkbox" name="others" id="Arobi">
+                Arobi
+            </label>
+            <label for="General Knowledge">
+                <input type="checkbox" name="others" id="General Knowledge">
+            General Knowledge
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Spacial Instruction</legend>
+            <textarea name="" id="" cols="60" rows="3"></textarea>
+        </fieldset>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+        
+        
+    </form>
+    
+</body>
+</html>
